@@ -1,0 +1,30 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "This API is created with NodeJS and the librarys Express, Body-parser, Consign, Moment and Mysql.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniellPacheco/library-api-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniellPacheco/library-api-node/issues"
+  },
+  "homepage": "https://github.com/DaniellPacheco/library-api-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
